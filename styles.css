@@ -1,0 +1,19 @@
+:root {
+    --bg-color: #0f0e17;
+    --paragraph-color: #a7a9be;
+    --headline-color: #fffffe;
+    --button-color: #ff8906;
+    --button-text: #fffffe;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+p {
+    color: var(--paragraph-color);
+}
+/*header*/ 
+#header-logo {
+    width: 10vh;
+    height: 10vh;
+}
