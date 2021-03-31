@@ -9,36 +9,228 @@
         <!-- Start Bootstrap CSS Include-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <!--End Bootstrap Include-->
+        <!-- Start AOS Library Include-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!--End AOS Library Include-->
         <link href="styles.css" rel="stylesheet">
-        <title>My Webpage</title>
+        <!-- Calendly style sheet-->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <!-- End Calendly style sheet-->
+        <title>Melek Gharbi - Growth Hacker</title>
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img id="header-logo" src="/assets/img/profile-photo-melek.png">Melek Gharbi</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
+        <div class="body-wrapper container-fluid">
+            <!-- ======= Header ======= -->
+            <header id="header" class="d-flex align-items-center">
+                <div class="container d-flex align-items-center" >
+                    <div class="logo mr-auto">
+                        <a href="index.html"><img src="assets/img/profile-photo-melek.png" alt="" class="img-fluid"></a>
+                    </div>
+                    <nav class="nav-menu d-none d-lg-block">
+                        <ul>
+                            <li class="active"><a href="#index.html">Accueil</a></li>
+                            <li><a href="services.html">services</a></li>
+                            <li><a href="portfolio.html">A propos</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
+            </header>
+            <!-- End Header -->
+            <!-- ======= Hero ======= -->
+            <section id="hero" class="d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                            <h1 data-aos="fade-up">L'antre du Hacker 🏴‍☠️🦜</h1>
+                            <h2 data-aos="fade-up" data-aos-delay="400">Rassure toi gentil visiteur, je ne pirate que la croissance, en d'autre termes je suis Growth Hacker, ça claque non 😍?</h2>
+                            <div data-aos="fade-up" data-aos-delay="800">
+                                <!-- Calendly link widget begin -->
+                                <a class="btn btn-get-started" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Buvons un verre 🍷</a>
+                                <!-- Calendly link widget end -->
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="400">
+                            <img src="./assets/img/profile-photo-melek.png" alt="" class="img-fluid animated">
+                        </div>
+                    </div>
                 </div>
-              </nav>
-        </header>
-        <main></main>
-        <footer></footer>
+            </section>
+            <!-- End Hero -->
+            <!-- ======= Main ======= -->
+            <!-- ======= Stack Section ======= -->
+            <section id="stack" class="stack">
+                <div class="container">
+                    <div class="row d-flex flex-row align-items-center justify-content-center" data-aos="fade-up">
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/beautifulsoup.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/bubble-logo.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/facebook-ads-logo.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/flask-logo.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/google-data-studio.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/hotjar-logo.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="row d-flex flex-row align-items-center justify-content-center pt-4" data-aos="fade-up" data-aos-delay="400">
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/hubspot-logo.png" alt="hubspot" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/ibm-watson-logo.png" alt="ibm watson" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/mailchimp-logo.png" alt="" class="img-fluid">
+                        </div>
+                        <div id="notion-logo" class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/notion-logo.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/phantombuster.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="row d-flex flex-row align-items-center justify-content-center pt-4" data-aos="fade-up" data-aos-delay="800">
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/python-logo.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/selenium-logo.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/Tag_manager_logo.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="./assets/img/zapier-logo.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ======= End Stack Section ======= -->
+            <!-- ======= C'est quoi Section ======= -->
+            <section id="what" class="what">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up">
+                            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_sSF6EG.json"  background="transparent"  speed="1"  style="width:75%;"  loop  autoplay></lottie-player>
+                        </div>
+                        <div class="col-lg-6 pt-5 order-1 order-lg-2" data-aos="fade-left">
+                            <h2 class="">Lorem ipsum act</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corporis laborum exercitationem asperiores ipsa doloremque debitis laudantium, excepturi a voluptas sit saepe esse, minus quae officia ducimus sunt. Maxime, magnam!
+                            Autem labore ducimus eum dignissimos nemo repellat, consequatur eius enim quos voluptate laborum architecto reiciendis optio, facere itaque debitis aperiam laboriosam eveniet nulla repellendus error praesentium assumenda. Quis, dicta omnis.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ======= End C'est quoi Section ======= -->
+
+            <!-- ======= Services Section ======= -->
+            <section id="services" class="services">
+                <div class="container">
+        
+                    <div class="section-title" data-aos="fade-up">
+                        <h2>Services</h2>
+                        <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fug</p>
+                    </div>
+            
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">B2B Lead Generation</a></h4>
+                                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                                <div class="icon"><i class="bx bx-file"></i></div>
+                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Market Validation</a></h4>
+                                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Web Scraping</a></h4>
+                                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                                <div class="icon"><i class="bx bx-world"></i></div>
+                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Paid Acquisition</a></h4>
+                                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
+                                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Tracking & Analytics</a></h4>
+                                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="600">
+                                <div class="icon"><i class="bx bx-file"></i></div>
+                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Business Process Automation</a></h4>
+                                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="700">
+                                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Growth Engineering</a></h4>
+                                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                            <div class="icon-box" data-aos="fade-up" data-aos-delay="800">
+                                <div class="icon"><i class="bx bx-world"></i></div>
+                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Growth Training</a></h4>
+                                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End Services Section -->
+
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/melek-rdv/15min?hide_landing_page_details=1&hide_gdpr_banner=1"data-aos="fade-up" style="min-width:320px;height:100vh;"></div>
+            <!-- Calendly inline widget end -->
+            <!-- End Main -->
+            <a href='https://www.freepik.com/vectors/background'>Background vector created by Harryarts - www.freepik.com</a>
+            <!-- ======= Footer ======= -->
+
+            <!-- End Footer -->
+        </div>
         <!-- Start Bootstrap JS Include-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <!-- End Bootstrap Include-->
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <!-- Calendly Script tag-->
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <!-- Calendly style sheet-->
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
