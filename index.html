@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Personal Page Melek Gharbi">
         <meta name="author" content="Melek Gharbi - Growth Hacker & Tech Addict">
         <!-- Start Bootstrap CSS Include-->
@@ -23,17 +23,19 @@
             <!-- ======= Header ======= -->
             <header id="header" class="d-flex align-items-center">
                 <div class="container d-flex align-items-center" >
-                    <div class="logo mr-auto">
+                    <div class="logo">
                         <a href="index.html"><img src="assets/img/profile-photo-melek.png" alt="" class="img-fluid"></a>
                     </div>
-                    <nav class="nav-menu d-none d-lg-block">
-                        <ul>
-                            <li class="active"><a href="#index.html">Accueil</a></li>
-                            <li><a href="services.html">services</a></li>
-                            <li><a href="portfolio.html">A propos</a></li>
-                            <li><a href="contact.html">contact</a></li>
-                        </ul>
-                    </nav>
+                    <div class="">
+                        <nav class="nav-menu d-none d-lg-block">
+                            <ul>
+                                <li class="active"><a href="#index.html">Accueil</a></li>
+                                <li><a href="services.html">services</a></li>
+                                <li><a href="portfolio.html">A propos</a></li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </header>
             <!-- End Header -->
@@ -143,11 +145,16 @@
             
                     <div class="row">
                         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">B2B Lead Generation</a></h4>
-                                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                            </div>
+                            <div class="card card-class" style="width: 18rem;" data-aos="fade-up" data-aos-delay="100">
+                                <img class="card-img-top p-4" src="./assets/img/zapier-logo.png" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <div class="d-flex justify-content-center align-items-center mt-2 mb-2">
+                                    <a href="#" class="btn btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Go somewhere</a>
+                                  </div>
+                                </div>
+                              </div>
                         </div>
             
                         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -174,39 +181,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row pt-4">
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
-                                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Tracking & Analytics</a></h4>
-                                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                            </div>
-                        </div>
-            
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="600">
-                                <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Business Process Automation</a></h4>
-                                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                            </div>
-                        </div>
-            
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="700">
-                                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Growth Engineering</a></h4>
-                                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-                            </div>
-                        </div>
-            
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="800">
-                                <div class="icon"><i class="bx bx-world"></i></div>
-                                <h4 class="title"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/melek-rdv/15min?hide_gdpr_banner=1'});return false;">Growth Training</a></h4>
-                                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </section><!-- End Services Section -->
 
